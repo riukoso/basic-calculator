@@ -77,8 +77,8 @@ const key = (c) => {
         if(operador === "/"){
             result = (parseFloat(temporal) / parseFloat(screen.textContent)).toString()
         }
-        if(operador === "*"){
-            result = (parseFloat(temporal) * parseFloat(screen.textContent)).toString()
+        if(operador === "+"){
+            result = (parseFloat(temporal) + parseFloat(screen.textContent)).toString()
         }
         if(operador === "*"){
             result = parseFloat(parseFloat(parseFloat(temporal) * parseFloat(screen.textContent)).toFixed(4).replace(/([0-9]+(\.[0-9]+[1-9])?)(\.?0+$)/,'$1')).toString()
