@@ -5,10 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="main.js" defer></script>
     <title>Calculator</title>
 </head>
 <body>
-    
+    <h1>CALCULATOR</h1>
+    <div class="container">
+        <div class="screenBox">
+            <p id="history"></p>
+            <p id="screen">0</p>
+        </div>
+        <div class="keyboard noSelect">
+            <p onclick="reset()" style="color: #26dbbc;">AC</p>
+            <p onclick="key('sign')" style="color: #26dbbc;"><i class="fa-solid fa-plus-minus"></i></p>
+            <p onclick="key('%')" style="color: #26dbbc;">%</p>
+            <p onclick="key('/')" style="color: #d25e60;"><i class="fa-solid fa-divide"></i></p>
+            <p onclick="key(7)">7</p>
+            <p onclick="key(8)">8</p>
+            <p onclick="key(9)">9</p>
+            <p onclick="key('*')" style="color: #d25e60;"><i class="fa-solid fa-xmark"></i></p>
+            <p onclick="key(4)">4</p>
+            <p onclick="key(5)">5</p>
+            <p onclick="key(6)">6</p>
+            <p onclick="key('-')" style="color: #d25e60;"><i class="fa-solid fa-minus"></i></p>
+            <p onclick="key(1)">1</p>
+            <p onclick="key(2)">2</p>
+            <p onclick="key(3)">3</p>
+            <p onclick="key('+')" style="color: #d25e60;"><i class="fa-solid fa-plus"></i></p>
+            <p onclick="key('delete')"><i class="fa-solid fa-rotate-left"></i></p>
+            <p onclick="key(0)">0</p>
+            <p onclick="key('.')">.</p>
+            <p onclick="key('=')" style="color: #d25e60;"><i class="fa-solid fa-equals"></i></p>
+        </div>
+    </div>
 </body>
 </html>
