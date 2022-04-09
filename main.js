@@ -74,6 +74,7 @@ const key = (c) => {
     }
 
     if(c === "="){
+        if(!temporal)return;
         if(operador === "/"){
             result = (parseFloat(temporal) / parseFloat(screen.textContent)).toString()
         }
