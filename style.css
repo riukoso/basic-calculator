@@ -8,22 +8,21 @@
 }
 
 body{
-    min-height: 90vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 1.6em;
     color: #fff;
-    margin: 0 auto;
     word-wrap: break-word;
-    padding: 0 20px;
+    padding: 30px 20px;
 }
 
 h1{
     color: #292d36;
     text-align: center;
-    margin: 1.7rem 0 1rem;
+    margin: 1rem 0;
     font-size: 1.7rem;
     letter-spacing: 2px;
 }
@@ -32,8 +31,7 @@ h1{
     background-color: #22252d;
     border-radius: 10px;
     overflow: hidden;
-    height: auto;
-    max-width: 100%;
+    width: 35%;
 }
 
 .screenBox{
@@ -70,8 +68,8 @@ h1{
     align-items: center;
     background-color: #272b33;
     border-radius: 50%;
-    height: 5rem;
-    width: 5rem;
+    height: 4rem;
+    width: 4rem;
     cursor: pointer;
 }
 
@@ -83,4 +81,29 @@ h1{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+@media (max-width:950px) {
+    .container{
+        width: 70%;
+    }
+}
+
+@media (max-width:700px) {
+    .container{
+        width: 95%;
+    }
+}
+
+@media (max-width:350px) {
+    body{
+        font-size: 1.2em;
+    }
+    #screen{
+        font-size: 1.5em;
+    }
+    .keyboard p{
+        height: 3rem;
+        width: 3rem;
+    }    
 }
