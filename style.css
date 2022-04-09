@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6em;
+    color: #fff;
+    margin: 0 auto;
+    word-wrap: break-word;
+    padding: 0 20px;
+}
+
+h1{
+    color: #292d36;
+    text-align: center;
+    margin: 1.7rem 0 1rem;
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+}
+
+.container{
+    background-color: #22252d;
+    border-radius: 10px;
+    overflow: hidden;
+    height: auto;
+    max-width: 100%;
+}
+
+.screenBox{
+    min-height: 180px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin: 0 25px 25px 0;
+}
+
+#screen{
+    font-size: 2.3em;
+    font-weight: 500;
+    width: 100%;
+}
+
+.keyboard{
+    font-weight: 500;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    text-align: center;
+    background-color: #292d36;
+    padding: 30px 15px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    align-items: center;
+    justify-items: center;
+}
+
+.keyboard p{
+    display: grid;
+    align-items: center;
+    background-color: #272b33;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    cursor: pointer;
+}
+
+.noSelect {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
