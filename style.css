@@ -16,7 +16,7 @@ body{
     font-size: 1.6em;
     color: #fff;
     word-wrap: break-word;
-    padding: 30px 20px;
+    padding: 20px 20px 30px;
 }
 
 h1{
@@ -31,7 +31,7 @@ h1{
     background-color: #22252d;
     border-radius: 10px;
     overflow: hidden;
-    width: 35%;
+    max-width: 500px;
 }
 
 .screenBox{
@@ -68,8 +68,8 @@ h1{
     align-items: center;
     background-color: #272b33;
     border-radius: 50%;
-    height: 4rem;
-    width: 4rem;
+    height: 5rem;
+    width: 5rem;
     cursor: pointer;
 }
 
