@@ -93,6 +93,10 @@ h1{
     .container{
         width: 95%;
     }
+    .keyboard p{
+        height: 4rem;
+        width: 4rem;
+    }    
 }
 
 @media (max-width:350px) {
